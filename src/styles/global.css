@@ -1,0 +1,38 @@
+.application {
+  font-family: "Roboto";
+  color: rgb(41, 41, 41);
+}
+
+.section {
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.about {
+  font-size: large;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.bio {
+  padding-left: 30px;
+}
+
+header {
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+footer {
+  text-align: center;
+  font-size: large;
+  padding-top: 50px;
+}
