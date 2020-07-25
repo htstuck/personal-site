@@ -5,6 +5,7 @@ import "../styles/global.css"
 import Hudson from "../images/hudson.jpeg"
 import Favicon from "../images/myfavicon.ico"
 
+// TODO: remove gh-pages branches for htstuck.github.io and personal-site
 const Home = ({ data }) => {
   return (
     <div className="application">
@@ -18,6 +19,7 @@ const Home = ({ data }) => {
       </header>
       <div className="section">
         <div className="flex-container">
+          {/* TODO: change img html tag to gatsby graphQL query (gatsby-image) */}
           <img src={Hudson} height="200" width="150" alt="Hiking in Denali" />
           <div className="bio">
             {/* TODO: add inspired links to lex fridman and peter norvig (simple sites)*/}
