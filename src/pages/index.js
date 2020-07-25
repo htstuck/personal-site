@@ -22,7 +22,7 @@ const Home = ({ data }) => {
           <div className="bio">
             {/* TODO: add inspired links to lex fridman and peter norvig (simple sites)*/}
             <p>
-              Welcome! My name is Hudson and this is my website. I'm an aspiring
+              Welcome! My name is Hudson Stuck and this is my website. I'm an aspiring
               data scientist and/or software engineer interested in deep
               learning, natural language processing, and iOS app development.
               I also enjoy self-teaching and am currently learning about full-stack
