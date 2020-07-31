@@ -1,13 +1,16 @@
 import React from "react"
 import "../styles/landing.css"
-import { FaDev, FaGithub, FaKaggle } from "react-icons/fa"
+import { FaLinkedin, FaDev, FaGithub, FaKaggle } from "react-icons/fa"
 import { GrMail } from "react-icons/gr"
+import { AiFillProfile } from "react-icons/ai"
+import Hudson from "../images/cartoon-hudson.png"
 
 const Landing = () => {
   let iconSize = "40px"
   return (
     <>
       <div className="greeting">
+          <img src={Hudson} alt="Hudson Stuck" width="150px"/>
         <h1>Hi, I'm Hudson.</h1>
       </div>
       <p>
@@ -20,6 +23,9 @@ const Landing = () => {
       <div className="social">
         <a href="mailto: htstuck@gmail.com">
           <GrMail size={iconSize} />
+        </a>
+        <a href="https://linkedin.com/in/hudsonstuck">
+          <FaLinkedin size={iconSize} />
         </a>
         <a href="https://github.com/htstuck">
           <FaGithub size={iconSize} />
