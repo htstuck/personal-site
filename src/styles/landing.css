@@ -1,0 +1,23 @@
+body {
+  padding-top: 200px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.greeting {
+  text-align: center;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+hr {
+  height: 4px;
+  background-color: white;
+}
+
+.social {
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

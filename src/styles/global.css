@@ -1,12 +1,13 @@
-.application {
+body {
+  background-color: #363946;
   font-family: "Roboto";
-  color: rgb(41, 41, 41);
+  color: white;
 }
 
+
 .section {
-  padding-top: 25px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .flex-container {
@@ -35,4 +36,8 @@ footer {
   text-align: center;
   font-size: large;
   padding-top: 50px;
+}
+
+.landing {
+  text-align: center;
 }
