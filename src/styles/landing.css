@@ -4,20 +4,37 @@ body {
   padding-right: 300px;
 }
 
-.greeting {
-  text-align: center;
-  font-weight: 700;
-  font-size: x-large;
-}
-
 hr {
   height: 4px;
   background-color: white;
 }
 
+a {
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+    font-size: large;
+}
+
+.greeting {
+  text-align: center;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
 .social {
-  font-size: 40px;
+  padding-top: 15px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+.hudson {
+  color: #f46036;
 }

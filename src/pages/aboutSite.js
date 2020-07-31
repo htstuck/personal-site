@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 import "../styles/global.css"
 
-export default function About() {
+export default function AboutSite() {
   return (
     <div className="application">
       <Helmet>

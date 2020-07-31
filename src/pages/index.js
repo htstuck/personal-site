@@ -20,11 +20,6 @@ const Home = ({ data }) => {
         <h1>Hi, I'm Hudson</h1>
         <hr></hr>
         <div className="flex-container">
-          < GrMail size="30px" />
-          < FaGithub size="30px" />
-          < FaDev size="30px" />
-          < FaKaggle size="30px" /> */}
-          {/* <img src={Hudson} height="200" width="150" alt="Hiking in Denali" /> */}
           {/* <div className="bio">
             <p>
               Welcome! My name is Hudson Stuck and this is my website. I'm an
@@ -42,9 +37,9 @@ const Home = ({ data }) => {
           </div> */}
         {/* </div>
       </div> */}
-      <footer>
-        <Link to="/about/">About this site</Link>
-      </footer>
+      {/* <footer>
+        <Link to="/aboutSite/">About this site</Link>
+      </footer> */}
     </div>
   )
 }
